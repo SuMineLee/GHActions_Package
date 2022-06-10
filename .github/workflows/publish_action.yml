@@ -1,8 +1,7 @@
 name: package
-
- on:
-  release:
-    types: [created]
+on:
+ release:
+  types: [created]
   
   jobs:
     build: 
