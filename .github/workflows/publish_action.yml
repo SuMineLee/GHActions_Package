@@ -10,7 +10,7 @@ jobs:
    - name: checkout github repo
      uses: actions/checkout@v1
    - name: setup node
-     uses: actions/setup-node@v1 
+     uses: actions/setup-node@v2
       node-verison:12
    - name: Install npm dependencies
      run: npm install 
@@ -24,7 +24,7 @@ jobs:
   runs-on: ubuntu-latest
   steps:
    - uses: actions/checkout@v1
-   - uses: actions/setup-node@v1
+   - uses: actions/setup-node@v2
      with: 
       node-version: 12
       registry-url: https://npm.pkg.github.com
