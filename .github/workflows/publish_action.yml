@@ -9,6 +9,10 @@ jobs:
   steps:
    - name: checkout github repo
      uses: actions/checkout@v1
+   - name: Install npm dependencies
+     run: npm install
+   - name: npm init
+     run: npm init -y
    - name: setup node
      uses: actions/setup-node@v1
       node-verison:12
