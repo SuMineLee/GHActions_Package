@@ -18,7 +18,6 @@ jobs:
    - name: npm init
      run: npm init -y
    - run: npm ci -config project/package.json
-   - run: npm test -config project/package.json
    
  publish-gpr:
   needs: build
