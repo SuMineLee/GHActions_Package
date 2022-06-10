@@ -34,6 +34,6 @@ jobs:
      run: npm init -y
      
    - run: npm ci -config project/package.json
-   - run: npm publish -config project/package.json
+   - run: npm publish
      env:
       NODE_AUTH_TOKEN : $${{secrets.GITHUB_TOKEN}}
