@@ -1,3 +1,5 @@
 {
-  "your": "json config here"
+  "name": "@SuMineLee/GHActions_Package",
+  "repository": "git:://github.com/SuMineLee/GHActions_Package"
+  
 }
